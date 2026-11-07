@@ -1,0 +1,28 @@
+---
+layout: layouts/base.njk
+title: Archival Gallery
+permalink: /archive/
+---
+{# Hidden page (not in the menu). Tiles come from src/_data/archive.json. #}
+<section class="archive">
+  <h1 class="archive-title">The Archival Gallery</h1>
+  <nav class="archive-jump" aria-label="Archive sections">
+    <a href="#time-based" class="time"><img src="{{ media.archiveIconTime }}" alt="" width="54" height="83">Time Based Media</a>
+    <a href="#other" class="other"><img src="{{ media.archiveIconOther }}" alt="" width="54" height="45">Other Mediums</a>
+  </nav>
+
+  <h2 id="time-based" class="archive-heading">Archived: Time Based Media</h2>
+  <h3 class="archive-sub">Live Action</h3>
+  <div class="tile-grid cols-4 captioned">
+    {%- for item in archive.live %}{% include "partials/tile.njk" %}{% endfor %}
+  </div>
+  <h3 class="archive-sub">Animation</h3>
+  <div class="tile-grid cols-4 captioned">
+    {%- for item in archive.animation %}{% include "partials/tile.njk" %}{% endfor %}
+  </div>
+
+  <h2 id="other" class="archive-heading">Archived: Other Mediums</h2>
+  <div class="tile-grid cols-4 captioned">
+    {%- for item in archive.other %}{% include "partials/tile.njk" %}{% endfor %}
+  </div>
+</section>

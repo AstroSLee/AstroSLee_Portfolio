@@ -1,0 +1,71 @@
+[
+  {
+    "title": "23 Springs",
+    "description": "",
+    "href": "",
+    "external": false,
+    "video": "/assets/media/6207b19eb75b.mp4",
+    "image": "/assets/media/6207b19eb75b-poster.jpg",
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "title": "sync:mirror",
+    "description": "",
+    "href": "",
+    "external": false,
+    "vimeo": "1179616967",
+    "image": "/assets/media/16c032bdf7e9.jpg",
+    "width": 1920,
+    "height": 1080
+  },
+  {
+    "title": "Body^N",
+    "description": "Delivery Dancer Codec Performance\nCanyon | Performa",
+    "href": "",
+    "external": false,
+    "image": "/assets/media/a7d6836655b4.jpg",
+    "width": 4000,
+    "height": 2250
+  },
+  {
+    "title": "Bloom Cup",
+    "description": "",
+    "href": "/bloomcup/",
+    "external": false,
+    "video": "/assets/media/4bc3b12a2a53.mp4",
+    "image": "/assets/media/4bc3b12a2a53-poster.jpg",
+    "width": 1920,
+    "height": 1080
+  },
+  {
+    "title": "The Hallucinating PCB Autopsy",
+    "description": "",
+    "href": "/pcb-autopsy/",
+    "external": false,
+    "video": "/assets/media/6f0084856b42.mp4",
+    "image": "/assets/media/6f0084856b42-poster.jpg",
+    "width": 1920,
+    "height": 1080
+  },
+  {
+    "title": "DMX Replica",
+    "description": "",
+    "href": "/dmx/",
+    "external": false,
+    "video": "/assets/media/a811e058dd4a.mp4",
+    "image": "/assets/media/a811e058dd4a-poster.jpg",
+    "width": 854,
+    "height": 480
+  },
+  {
+    "title": "Code Sketches",
+    "description": "",
+    "href": "/code/",
+    "external": false,
+    "video": "/assets/media/f0edd61505b2.mp4",
+    "image": "/assets/media/f0edd61505b2-poster.jpg",
+    "width": 784,
+    "height": 446
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "name": "astroslee-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Portfolio site of Astro Seunghwa Lee, built with Eleventy.",
+  "type": "module",
+  "scripts": {
+    "start": "eleventy --serve --quiet",
+    "build": "eleventy",
+    "build:pages": "eleventy --pathprefix=/AstroSLee_Portfolio/"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.2"
+  }
+}

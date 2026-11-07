@@ -1,0 +1,14 @@
+---
+layout: layouts/base.njk
+title: Motion
+permalink: /motion/
+---
+{# Tiles come from src/_data/motion.json — reorder, add or remove entries there. #}
+<section class="grid-page">
+  <h1 class="section-title">Motion</h1>
+  <div class="tile-grid">
+    {%- for item in motion %}
+    {% include "partials/tile.njk" %}
+    {%- endfor %}
+  </div>
+</section>

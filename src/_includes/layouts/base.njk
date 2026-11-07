@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if title and page.url != "/" %}{{ title }} | {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{{ description or site.description }}">
+  <meta property="og:title" content="{{ title or site.title }}">
+  <meta property="og:description" content="{{ description or site.description }}">
+  <meta name="theme-color" content="#000000">
+  <link rel="icon" href="{{ media.favicon }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Caudex:wght@400;700&family=Cormorant+Garamond:wght@300;400&family=Josefin+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600&family=Jost:wght@300;400&family=Montserrat:wght@300;400;500&display=swap">
+  <link rel="stylesheet" href="/assets/css/main.css">
+</head>
+<body class="{{ bodyClass }}">
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <a class="site-name" href="/">{{ site.name }}</a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav id="site-nav" class="site-nav" aria-label="Main">
+      <ul>
+        {%- for item in site.nav %}
+        {%- if item.children %}
+        <li class="has-sub">
+          <button class="nav-link{% for c in item.children %}{% if page.url == c.url %} is-active{% endif %}{% endfor %}" aria-expanded="false">{{ item.label }}</button>
+          <ul class="sub">
+            {%- for c in item.children %}
+            <li><a href="{{ c.url }}"{% if page.url == c.url %} aria-current="page"{% endif %}>{{ c.label }}</a></li>
+            {%- endfor %}
+          </ul>
+        </li>
+        {%- else %}
+        <li><a class="nav-link" href="{{ item.url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.label }}</a></li>
+        {%- endif %}
+        {%- endfor %}
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main" class="site-main">
+    {{ content | safe }}
+  </main>
+
+  <footer class="site-footer">
+    <p class="tagline">{{ site.tagline }}</p>
+    <p class="copyright">© {{ "" | year }} {{ site.fullName }}</p>
+  </footer>
+
+  <script src="/assets/js/main.js" defer></script>
+</body>
+</html>

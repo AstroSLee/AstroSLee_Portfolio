@@ -1,0 +1,14 @@
+---
+layout: layouts/base.njk
+title: Creative Tech
+permalink: /work/
+---
+{# Tiles come from src/_data/work.json — reorder, add or remove entries there. #}
+<section class="grid-page">
+  <h1 class="section-title">Creative Tech</h1>
+  <div class="tile-grid">
+    {%- for item in work %}
+    {% include "partials/tile.njk" %}
+    {%- endfor %}
+  </div>
+</section>

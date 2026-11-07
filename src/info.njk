@@ -1,0 +1,21 @@
+---
+layout: layouts/base.njk
+title: Info
+permalink: /info/
+---
+<section class="info">
+  <div class="info-contact">
+    <h1>Contact</h1>
+    <ul>
+      <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+      {%- for l in site.links %}
+      <li><a href="{{ l.url }}" target="_blank" rel="noopener">{{ l.label }}</a></li>
+      {%- endfor %}
+    </ul>
+  </div>
+  <img class="info-portrait" src="{{ media.portrait }}" alt="Portrait of Astro Seunghwa Lee" width="536" height="518">
+  <div class="info-bio">
+    <p><strong>Astro Seunghwa Lee</strong> (b. 1998, Dangjin, South Korea) is a Brooklyn based Creative Technologist and Motion Designer working across physical and computational media. Her practice investigates embodiment, motion, and the porous boundary between digital and material space through the lenses of heritage, culture, and social systems. Attentive to the architectures and infrastructures that shape individual and collective behavior, she integrates mathematical and scientific frameworks with poetic, sensory experience.</p>
+    <p>Lee creates hybrid physical digital installations and performances that examine how technological systems mediate identity, memory, and perception. She holds a BFA from the School of Visual Arts and a Master’s degree from the Interactive Telecommunications Program at New York University. Her work has been presented at the Visual Effects Society Conference and the ITP Postdoctoral Research Residency, and has been recognized by international animation festivals and the Arts Council Korea.</p>
+  </div>
+</section>

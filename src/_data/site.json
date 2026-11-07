@@ -1,0 +1,35 @@
+{
+  "title": "Astro Lee",
+  "name": "Astro S. Lee",
+  "fullName": "Astro Seunghwa Lee",
+  "role": "Creative Technologist x Motion Designer",
+  "tagline": "Exploring the porous boundary between digital and physical embodiment, reinterpreting heritage, culture, and identity through media technologies.",
+  "description": "Astro Seunghwa Lee — Brooklyn based Creative Technologist and Motion Designer.",
+  "url": "https://www.astrolee.com",
+  "email": "astro@astrolee.com",
+  "nav": [
+    {
+      "label": "Work",
+      "children": [
+        { "label": "Reel", "url": "/reel/" },
+        { "label": "Creative Tech", "url": "/work/" },
+        { "label": "Motion", "url": "/motion/" }
+      ]
+    },
+    { "label": "Info", "url": "/info/" },
+    { "label": "Art", "url": "/art/" }
+  ],
+  "links": [
+    { "label": "CV", "url": "https://docs.google.com/document/d/1QjjVNz8BN_VEOwgfzcfOEOK3NBRwa38me2FVK08vJpo/edit?usp=sharing" },
+    { "label": "GitHub", "url": "https://github.com/AstroSLee" },
+    { "label": "LinkedIn", "url": "https://www.linkedin.com/in/astrolee/" },
+    { "label": "Instagram", "url": "https://www.instagram.com/astro_sh_lee/" },
+    { "label": "Vimeo", "url": "https://vimeo.com/user134479535" },
+    { "label": "Studio", "url": "https://www.astroplusstudio.com/" }
+  ],
+  "artProjects": [
+    { "label": "Your Gaze", "url": "/your-gaze/" },
+    { "label": "Rage Box", "url": "/rage-box/" },
+    { "label": "Device JBB", "url": "/jbb/" }
+  ]
+}

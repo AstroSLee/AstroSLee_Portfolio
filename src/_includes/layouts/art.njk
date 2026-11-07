@@ -1,0 +1,17 @@
+---
+layout: layouts/base.njk
+---
+{# Art section: left sidebar with the artist name and the list of art projects. #}
+<div class="art-layout">
+  <aside class="art-sidebar">
+    <p class="art-name">{{ site.name }}<br><span>new media artist</span></p>
+    <ul>
+      {%- for p in site.artProjects %}
+      <li><a href="{{ p.url }}"{% if page.url == p.url %} aria-current="page"{% endif %}>{{ p.label }}</a></li>
+      {%- endfor %}
+    </ul>
+  </aside>
+  <article class="page project art-body">
+    {{ content | safe }}
+  </article>
+</div>

@@ -1,0 +1,217 @@
+{
+  "live": [
+    {
+      "title": "Sequence: In silence",
+      "description": "BMPCC shot video shots",
+      "href": "",
+      "external": false,
+      "image": "/assets/media/b1e60ad492dc.jpg",
+      "width": 728,
+      "height": 407
+    },
+    {
+      "title": "Hand shot Videography",
+      "description": "Series of hand shot videos. Black Magic 6k pro, Colored in Davinci",
+      "href": "",
+      "external": false,
+      "image": "/assets/media/6428ad21a419.jpg",
+      "width": 2090,
+      "height": 1102
+    },
+    {
+      "title": "Roman: Series of Album Trailer",
+      "description": "Series of composited album trailers. Visual Effects done in After Effects",
+      "href": "",
+      "external": false,
+      "image": "/assets/media/4bb7eea1fcfd.jpg",
+      "width": 1216,
+      "height": 1045
+    },
+    {
+      "title": "YSON Interview",
+      "description": "Interview w/ OSSTEM Pharma research team for client YSON Medical Corp.",
+      "href": "/ysoninterview/",
+      "external": false,
+      "image": "/assets/media/37cb1fbc6c6a.jpg",
+      "width": 1119,
+      "height": 716
+    }
+  ],
+  "animation": [
+    {
+      "title": "AI & [STOP]",
+      "description": "Collage sequences of RunwayML generated AI video paired with Sound Design",
+      "href": "",
+      "external": false,
+      "youtube": "OmaqxBeIh54",
+      "image": "https://i.ytimg.com/vi/OmaqxBeIh54/hqdefault.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "title": "DMX Replica",
+      "description": "Group Experience driven by Lights, Sound, and image replications (media)",
+      "href": "/dmx/",
+      "external": false,
+      "image": "/assets/media/6298a414873f.jpg",
+      "width": 1404,
+      "height": 648
+    },
+    {
+      "title": "Graphics Package for SVA Graduation ceremony",
+      "description": "Houdini powered Graduation Awards Ceremony Art Awards",
+      "href": "/graphicspackage/",
+      "external": false,
+      "image": "/assets/media/e982c7952309.jpg",
+      "width": 1798,
+      "height": 1010
+    },
+    {
+      "title": "Motion Paper Collage",
+      "description": "",
+      "href": "",
+      "external": false,
+      "youtube": "wxzmOavDf9Q",
+      "image": "https://i.ytimg.com/vi/wxzmOavDf9Q/hqdefault.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "title": "Mini Commons",
+      "description": "Blender Rig package for the branded mascot, Mini Commons of 370J Media Commons",
+      "href": "/minicommons/",
+      "external": false,
+      "image": "/assets/media/68efd527f48a.jpg",
+      "width": 750,
+      "height": 753
+    },
+    {
+      "title": "Rob meets",
+      "description": "3D Animated Short. Made in Maya, rendered in Arnold.",
+      "href": "/robmeets/",
+      "external": false,
+      "image": "/assets/media/97a5b1487246.jpg",
+      "width": 1441,
+      "height": 1273
+    },
+    {
+      "title": "Fox Trail",
+      "description": "2D Hand-drawn Animated Short, made in After Effects",
+      "href": "/foxtrail/",
+      "external": false,
+      "image": "/assets/media/10c7567abe59.jpg",
+      "width": 3000,
+      "height": 1522
+    },
+    {
+      "title": "Breaking a Glass Box",
+      "description": "Houdini RBD simulation of breaking a glass box",
+      "href": "",
+      "external": false,
+      "image": "/assets/media/f45e9cca6ea1.jpg",
+      "width": 2852,
+      "height": 1876
+    },
+    {
+      "title": "Procedural Garden for the Pig Man",
+      "description": "Houdini and Mantra exercise on creating procedural plants",
+      "href": "",
+      "external": false,
+      "image": "/assets/media/6663cdcd9b12.jpg",
+      "width": 2746,
+      "height": 1594
+    },
+    {
+      "title": "The Voyage",
+      "description": "2D Animated short. Made in Photoshop, Flash, and Premiere.",
+      "href": "/voyage/",
+      "external": false,
+      "image": "/assets/media/d822ba590a85.png",
+      "width": 910,
+      "height": 1022
+    },
+    {
+      "title": "Welcome to I-Box",
+      "description": "2D Animated Short, hand drawn and cell based animation created with Flash, Animate CC.",
+      "href": "/welcometoibox/",
+      "external": false,
+      "image": "/assets/media/b3a0a9600801.jpg",
+      "width": 1273,
+      "height": 900
+    },
+    {
+      "title": "Music Driven Figure",
+      "description": "",
+      "href": "",
+      "external": false,
+      "image": "/assets/media/430ca86f8678.jpg",
+      "width": 1873,
+      "height": 926
+    }
+  ],
+  "other": [
+    {
+      "title": "Fabricated things",
+      "description": "Collection of Fabricated things",
+      "href": "",
+      "external": false,
+      "image": "/assets/media/5257e3a10748.jpg",
+      "width": 6720,
+      "height": 4480
+    },
+    {
+      "title": "Model Photography",
+      "description": "Model Portraits for YSON Medical Corp. Commercial Poster Photography",
+      "href": "/ysonphoto/",
+      "external": false,
+      "image": "/assets/media/f92c90dfcadc.jpg",
+      "width": 2003,
+      "height": 777
+    },
+    {
+      "title": "Performance",
+      "description": "Archive of Performance work",
+      "href": "/performance/",
+      "external": false,
+      "image": "/assets/media/5352328d6438.jpg",
+      "width": 725,
+      "height": 353
+    },
+    {
+      "title": "Mixed Media Painting",
+      "description": "",
+      "href": "/mixedmedia/",
+      "external": false,
+      "image": "/assets/media/c42ad93e532a.jpg",
+      "width": 525,
+      "height": 700
+    },
+    {
+      "title": "Oil",
+      "description": "Archive of Oil Painting Work",
+      "href": "/oil/",
+      "external": false,
+      "image": "/assets/media/df315d817442.jpg",
+      "width": 680,
+      "height": 850
+    },
+    {
+      "title": "Dry",
+      "description": "Archive of Dry Medium work",
+      "href": "/dry/",
+      "external": false,
+      "image": "/assets/media/b35b89a7a7dd.jpg",
+      "width": 440,
+      "height": 700
+    },
+    {
+      "title": "Installation: Objects",
+      "description": "Archive of Installation work",
+      "href": "/objects/",
+      "external": false,
+      "image": "/assets/media/8b162144ca5b.jpg",
+      "width": 663,
+      "height": 700
+    }
+  ]
+}

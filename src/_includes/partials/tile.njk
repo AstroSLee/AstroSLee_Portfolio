@@ -1,0 +1,16 @@
+{# One grid tile. Expects `item` with: title, description?, href?, image, video?, youtube?, vimeo? #}
+{%- set tag = "a" if item.href else "div" -%}
+<{{ tag }} class="tile"{% if item.href %} href="{{ item.href }}"{% if item.external %} target="_blank" rel="noopener"{% endif %}{% endif %}>
+  <div class="tile-media">
+    {%- if item.video %}
+    <video src="{{ item.video }}" poster="{{ item.image }}" autoplay muted loop playsinline preload="metadata" aria-hidden="true"></video>
+    {%- else %}
+    <img src="{{ item.image }}" alt="" loading="lazy">
+    {%- endif %}
+    {%- if item.youtube or item.vimeo %}<span class="play" aria-hidden="true"></span>{% endif %}
+  </div>
+  <div class="tile-caption">
+    <span class="tile-title">{{ item.title }}</span>
+    {%- if item.description %}<span class="tile-desc">{{ item.description | replace("\n", " · ") }}</span>{% endif %}
+  </div>
+</{{ tag }}>
